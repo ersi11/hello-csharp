@@ -1,8 +1,7 @@
-﻿
-// See https://aka.ms/new-console-template for more information
-
+﻿ //inizio
 Console.WriteLine("Benvenuto, scegli il tuo mese preferito.");
 
+//stampo mesi
 Console.WriteLine("gennaio");
 Console.WriteLine("febbraio");
 Console.WriteLine("marzo");
@@ -16,8 +15,10 @@ Console.WriteLine("ottobre");
 Console.WriteLine("novembre");
 Console.WriteLine("dicembre");
 
+//scelta utente mese preferito
 var SceltaUtente = Console.ReadLine();
 
+//fine
 Console.WriteLine("il tuo mese preferito è:" + SceltaUtente);
 Console.WriteLine("grazie");
 
